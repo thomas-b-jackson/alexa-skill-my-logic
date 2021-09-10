@@ -1,0 +1,59 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "my logic",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "PaidHolidayIntent",
+          "slots": [],
+          "samples": [
+            "holidays",
+            "holidays this month",
+            "next holiday",
+            "when is the next holiday"
+          ]
+        },
+        {
+          "name": "TicketIntent",
+          "slots": [],
+          "samples": [
+            "about IT tickets",
+            "how do I file a ticket",
+            "help with IT issue",
+            "get help from help desk"
+          ]
+        },
+        {
+          "name": "BenefitsEnrollmentIntent",
+          "slots": [],
+          "samples": [
+            "when is open enrollment",
+            "changing my benefits",
+            "when can I change my benefits",
+            "enroll for benefits",
+            "how can I change my benefits",
+            "changing health care benefits"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "1"
+}
